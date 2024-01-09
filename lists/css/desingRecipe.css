@@ -1,0 +1,43 @@
+body{
+    font: 12pt Arial, Helvetica, sans-serif;
+    background-color: rgb(231, 245, 247);
+    border: grey 2px outset; /* 3D effect outset*/
+    padding: 10px;
+    margin: 5%;
+}
+
+h1 {
+    color: black;
+    background-color: rgb(231, 214, 251);
+    text-transform: uppercase;
+    text-align: center;
+    border: 4px dashed black; /*dashed = discontinuo*/
+}
+
+h2{
+    background-color: rgb(231, 214, 251);
+    color: black;
+    text-transform: uppercase;
+    text-align: right;
+    border: 5px dotted papayawhip; /*dotted = punteado*/
+    border-bottom: 0px; /*delete border footer*/
+    margin-bottom: 0px; /*delete margin footer*/
+    padding-right: 5px;
+}
+body>ul{
+    background-color: rgb(231, 214, 251);
+    border: 5px dotted papayawhip;
+    color: black;
+    text-transform: uppercase;
+    border-top: none; /*elimina el borde entre el titulo y subtitulo*/
+    margin-top: 0px;
+    list-style-type: square; /*cambia viñetas de circulo a cuadrado*/
+
+}
+ol{
+    background-color: rgb(231, 214, 251);
+    border: 5px dotted papayawhip;
+    border-top: none;
+    margin-top: 0px;/*aparece el borde parte superior*/
+    padding-top: 5px;
+}
